@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>PROBLEM 1</title>
+  <style>
+    .pimg1,
+    .pimg2,
+    .pimg3 {
+      position: relative;
+      opacity: 0.7;
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+    }
+
+    .pimg1 {
+      background-image: url("img/image1.jpg");
+      min-height: 400px;
+    }
+
+    .pimg2 {
+      background-image: url("img/image2.jpg");
+      min-height: 200px;
+    }
+
+    .pimg3 {
+      background-image: url("img/image3.jpg");
+      min-height: 200px;
+    }
+
+    .section {
+      text-align: center;
+      padding: 50px 80px;
+    }
+
+    .section-light {
+      background-color: #f4f4f4;
+      color: #666;
+    }
+
+    .section-dark {
+      background-color: #282e34;
+      color: #ddd;
+    }
+
+    .ptext {
+      position: absolute;
+      top: 50%;
+      width: 100%;
+      text-align: center;
+      color: #000;
+      font-size: 27px;
+      letter-spacing: 8px;
+      text-transform: uppercase;
+    }
+
+    .ptext .border {
+      background-color: #111;
+      color: #fff;
+      padding: 20px;
+    }
+
+    .ptext .border .trans {
+      background-color: transparent;
+    }
+
+    @media (max-width: 568px) {
+
+      .pimg1,
+      .pimg2,
+      .pimg3 {
+        background-attachment: scroll;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="pimg1">
+    <div class="ptext">
+      <span class="border">
+        Paralax Website
+      </span>
+    </div>
+  </div>
+  <section class="section section-light">
+    <h2>Section One</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, recusandae. Cupiditate, hic itaque?
+      Consequuntur commodi dolor voluptate quidem. Consectetur, voluptate et nobis alias non, dicta dignissimos aliquid
+      necessitatibus voluptas ipsam
+      dolore, culpa quisquam laboriosam at molestias quod beatae veritatis est sequi incidunt! Dignissimos molestias
+      accusantium nobis deleniti, quisquam odio quibusdam, nulla alias totam velit recusandae vitae impedit placeat modi
+      iste, eligendi
+      sapiente ipsam iusto facilis est! Ab tempore nihil officiis minus laboriosam error ratione libero, quae, sequi,
+      fuga asperiores consequatur eligendi quod voluptas blanditiis! Reprehenderit officiis suscipit ex consequuntur
+      saepe rem esse nesciunt
+      cum, ut illum alias autem mollitia dolor.</p>
+  </section>
+  <div class="pimg2">
+    <div class="ptext">
+      <span class="border trans">
+        Image Two Text
+      </span>
+    </div>
+  </div>
+  <section class="section section-dark">
+    <h2>Section Two</h2>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. A dolorum quas possimus eum omnis. Laudantium voluptate
+      fugiat non, animi dolorem delectus autem porro! Minus voluptatem voluptates, aliquid inventore est nostrum eaque?
+      A officiis necessitatibus
+      iusto, ipsum laborum dicta. Aliquam tempore tempora accusantium veritatis dicta cum rem consequatur quisquam est
+      placeat.</p>
+  </section>
+  <div class="pimg3">
+    <div class="ptext">
+      <span class="border trans">
+        Image Three Text
+      </span>
+    </div>
+  </div>
+  <section class="section section-dark">
+    <h2>Section Three</h2>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. A dolorum quas possimus eum omnis. Laudantium voluptate
+      fugiat non, animi dolorem delectus autem porro! Minus voluptatem voluptates, aliquid inventore est nostrum eaque?
+      A officiis necessitatibus
+      iusto, ipsum laborum dicta. Aliquam tempore tempora accusantium veritatis dicta cum rem consequatur quisquam est
+      placeat.</p>
+  </section>
+  <div class="pimg1">
+    <div class="ptext">
+      <span class="border">
+        image text three
+      </span>
+    </div>
+  </div>
+
+</body>
+
+</html>
